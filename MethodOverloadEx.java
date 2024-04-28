@@ -11,7 +11,7 @@ public class MethodOverloadEx {
     }
     static  void Details(String name,double marks)
     {
-        System.out.println("Welcome "+name);
+        System.out.println("Welcome -"+name);
         System.out.println("You got "+ marks+" marks in exam.");
     }
 }
